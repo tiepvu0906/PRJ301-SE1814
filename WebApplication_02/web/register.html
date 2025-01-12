@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan="2">LOGIN INFORMATION</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" id="email" /></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" id="password" /></td>
+            </tr>
+            <tr>
+                <td>Confirm password:</td>
+                <td><input type="password" name="confirm_password" id="confirm_password" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">USER INFORMATION</td>
+            </tr>
+            <tr>
+                <td>Full name:</td>
+                <td><input type="text" name="fullname" id="fullname" /></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" id="gender_male" value="male"> Male <br/>
+                    <input type="radio" name="gender" id="gender_female" value="female"> Female <br/>
+                </td>
+            </tr>
+             <tr>
+                <td>Date of birth</td>
+                <td>
+                    <select name="DateOfBirth" id="DateOfBirth">
+                        <option value="" ></option>
+                        <option>1</option>
+                    </select>
+                    <select name="MonthOfBirth" id="MonthOfBirth">
+                        <option value="" ></option>
+                        <option>1</option>
+                    </select>
+                    <select name="YearOfBirth" id="YearOfBirth">
+                        <option value="" ></option>
+                        <option>1</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Moblie</td>
+                <td><input type="tel" name="moble" id="moble" /></td>
+            </tr>
+            <tr>
+                <td>Avatar</td>
+                <td><input type="file" name="avatar" id="avatar" /></td>
+            </tr>
+             <tr>
+                <td colspan="2">USER ADDRESS</td>
+            </tr>
+             <tr>
+                <td>Country</td>
+                <td>
+                    <select name="country" id="country">
+                        <option value="" > </option>
+                        <option value="vietnam" selected="selected">Việt Nam</option>
+                    </select>
+                    <select name="city" id="city">
+                        <option value="" > </option>
+                        <option value="hcm" selected="selected">HCM</option>
+                    </select>
+                    <select name="district" id="district">
+                        <option value="" > </option>
+                        <option value="thuduc" selected="selected">Thủ Đức</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Home address</td>
+                <td>
+                    <textarea name="homeAddress">
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Register"/>
+                    <input type="button" value="Clear Form"/>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
